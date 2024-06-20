@@ -57,7 +57,7 @@ function Navbar() {
 
       {/* for mobile */}
       {menu && <div className='bg-white'>
-        <ul className='md:hidden flex flex-col items-center justify-center h-screen space-y-3  text-xl'>
+        <ul className='md:hidden flex flex-col items-center  justify-start h-screen space-y-3  text-xl'>
           {navItems.map(({ id, text }) => (
             <li key={id}>
               <Link to={text}
