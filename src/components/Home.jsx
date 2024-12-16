@@ -20,7 +20,6 @@ function Home() {
      <span className='text-xl'>Welcome In My Feed</span>
     <div className='flex space-x-1 text-2xl  md:text-4xl'>
     <h1>Hello,I'm a</h1>
-    {/* <span className='text-red-700 font-bold'>Developer</span> */}
     <ReactTyped
                 className="text-red-700 font-bold"
                 strings={["Developer", "Programmer", "Coder"]}
@@ -54,7 +53,7 @@ function Home() {
                   <FaNodeJs className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
                 </div>
               </div>
-              <a href="/Ak.pdf" download className='inline-block bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-700'>
+              <a href="/My_Resume.pdf" download className='inline-block bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-700' target='_blank'>
                 Download CV
               </a>
              </div>

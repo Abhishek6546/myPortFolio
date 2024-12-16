@@ -1,33 +1,62 @@
 import React from "react";
-import blog from "../../public/blog.jpeg";
-import music from"../../public/music.jpeg";
+
 import todo from"../../public/todo.jpeg";
 import tictac from"../../public/tictac.jpeg";
-import guess from"../../public/guess.jpeg";
-import bmi from"../../public/bmi.jpeg";
+import Votingapp from "../../public/Votingapp.png"
+import jobportal from"../../public/jobportal.png";
+import ecommerce from"../../public/ecommerce.png";
+import bookstore from"../../public/bookstore.png";
+import mockmate from "../../public/mockmate.png"
 
 function PortFolio() {
   const cardItem = [
     {
       id: 1,
-      logo: blog,
-      name: "Blogify",
+      logo: ecommerce,
+      name: "Forever",
       paragraph:
-        "Blog website using Reactjs and appwrite for backend",
-      demoLink: "https://abhima.vercel.app/",
-      sourceCodeLink: "https://github.com/Abhishek6546/abhima", 
+        "E-Commerce website using MernStack",
+      demoLink: "https://forever-frontend-pearl.vercel.app/",
+      sourceCodeLink: "https://github.com/Abhishek6546/E-Commerce", 
     },
     {
       id: 2,
-      logo: music,
-      name: "Music Player",
+      logo: bookstore,
+      name: "BookHeaven",
       paragraph:
-        "Music player Web app with HTML CSS and Javascript",
-      demoLink: "gg", 
-      sourceCodeLink: "https://github.com/Abhishek6546/Spotify", 
+        "Bookstore website using Reactjs,Nodejs and MongoDb",
+      demoLink: "https://bookstore78.netlify.app/",
+      sourceCodeLink: "https://github.com/Abhishek6546/BookStore", 
     },
     {
       id: 3,
+      logo: jobportal,
+      name: "Hirrd",
+      paragraph:
+        "JobPortal website using Reactjs and Supabase for backend",
+      demoLink: "https://hirrdjobportal.netlify.app/",
+      sourceCodeLink: "https://github.com/Abhishek6546/Job-Portal", 
+    },
+    {
+      id: 4,
+      logo: mockmate,
+      name: "MockMate",
+      paragraph:
+        "AI MockInterviewer Website using Nextjs ",
+      demoLink: "https://mock-mate-three.vercel.app/",
+      sourceCodeLink: "https://github.com/Abhishek6546/MockMate", 
+    },
+    {
+      id: 5,
+      logo:Votingapp ,
+      name: "BallotBox",
+      paragraph:
+        "Voting website using mern stack technology",
+      demoLink: "https://voting-app-theta-two.vercel.app/", 
+      sourceCodeLink: "https://github.com/Abhishek6546/VotingApp", 
+    },
+    {
+      id: 6,
       logo: todo,
       name: "Todo App",
       paragraph:
@@ -36,7 +65,7 @@ function PortFolio() {
       sourceCodeLink: "https://github.com/Abhishek6546/TodoApp", 
     },
     {
-      id: 4,
+      id: 7,
       logo: tictac,
       name: "TicTacToe",
       paragraph:
@@ -44,24 +73,7 @@ function PortFolio() {
       demoLink: "https://tictactoebyabhishek123.netlify.app/",
       sourceCodeLink: "https://github.com/Abhishek6546/TicTacToe", 
     },
-    {
-      id: 5,
-      logo: guess ,
-      name: "Guess a Number",
-      paragraph:
-        "A guess a number game involves predicting a hidden number within a specified range.",
-      demoLink: "https://guessnumbyabhishek.netlify.app/", 
-      sourceCodeLink: "https://github.com/Abhishek6546/guessNumber", 
-    },
-    {
-      id: 6,
-      logo: bmi,
-      name: "BMI Calculator",
-      paragraph:
-        "A BMI calculator computes Body Mass Index using a person's weight and height.",
-      demoLink: "https://abhishekbmi.netlify.app/", 
-      sourceCodeLink: "https://github.com/Abhishek6546/BMI", 
-    },
+   
   ];
 
   return (

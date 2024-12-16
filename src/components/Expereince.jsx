@@ -3,10 +3,12 @@ import html from "../../public/html.png";
 import css from "../../public/css.jpg";
 import reactjs from "../../public/reactjs.png";
 import node from "../../public/node.png";
+import express from "../../public/express.png";
 import tailwind from "../../public/tailwind.jpeg";
 import c from "../../public/c.jpeg";
 
 import javascript from "../../public/javascript.png";
+import mongodb from "../../public/mongodb.jpg";
 function Experiance() {
   const cardItem = [
     {
@@ -36,13 +38,18 @@ function Experiance() {
     },
     {
       id: 6,
-      logo:c,
-      name: "C++",
+      logo:mongodb,
+      name: "mongodb",
     },
     {
       id: 7,
       logo: node,
       name: "Nodejs",
+    },
+    {
+      id: 8,
+      logo: express,
+      name: "Expressjs",
     },
   ];
   return (

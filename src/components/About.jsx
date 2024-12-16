@@ -23,7 +23,7 @@ function About() {
                     Skills & Expertise
                 </h1>
                 <span>
-                Proficient in C++ and JavaScript, experienced with ReactJS and Tailwind CSS. Strong grasp of Data Structures and Algorithms (DSA). Excellent problem-solving skills, effective communicator, and collaborator.
+                Proficient in C++ and JavaScript, experienced with Mern Stack. Strong grasp of Data Structures and Algorithms (DSA). Excellent problem-solving skills, effective communicator, and collaborator.
                 </span>
                 <br />
                 <br />
